@@ -1,0 +1,51 @@
+<div class="panel panel-primary" *ngIf="car">
+  <div class="panel-heading">
+    <h1 class="panel-title">{{car.make}} {{car.model}} ({{car.year}})</h1>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-sm-8">
+        <img src="../../assets/images/{{car.image}}" alt="">
+        <a class="btn btn-primary back-btn" (click)='goBack()'>Go Back</a>
+      </div>
+      <div class="col-sm-4 car-form">
+        <div class="form-group">
+          <label for="carMake" class="control-label">Make</label>
+          <div>
+            <input class="form-control input-sm" id="carMake" [(ngModel)]="car.make">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="carModel" class="control-label">Model</label>
+          <div>
+            <input class="form-control input-sm" id="carModel" [(ngModel)]="car.model">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="carYear" class="control-label">Year</label>
+          <div>
+            <select class="form-control input-sm" id="carYear" [(ngModel)]="car.year">
+              <option *ngFor="let carYear of carYears" [value]="carYear">{{carYear}}</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="carColor" class="control-label">Color</label>
+          <div>
+            <input type="color" class="form-control input-sm" id="carColor" [(ngModel)]="car.color" [value]="car.color">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="carNos" class="control-label">Nos</label>
+          <div>
+            <select class="form-control input-sm" id="carNos" [(ngModel)]="car.nos">
+              <option [value]="true">&#10004;</option>
+              <option [value]="false">-</option>
+            </select>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

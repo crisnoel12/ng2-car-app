@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Lora', serif;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar-brand{
+  font-weight: bold;
+  font-style: italic;
+}
+
+.navbar-right{
+  font-weight: bold;
+}
+
+.jumbotron{
+  padding: 48px;
+  text-align: center;
+}

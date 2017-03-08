@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "make": "Land Rover",
+    "model": "Range Rover",
+    "year": 2016,
+    "color": "#ff0000",
+    "nos": false,
+    "image": "2016-landrover-rangerover.jpeg"
+  },
+  {
+    "id": 2,
+    "make": "Audi",
+    "model": "R8",
+    "year": 2013,
+    "color": "#ff0000",
+    "nos": true,
+    "image": "2013-audi-r8.jpg"
+  },
+  {
+    "id": 3,
+    "make": "Toyota",
+    "model": 86,
+    "year": 2014,
+    "color": "#ff0000",
+    "nos": true,
+    "image": "2014-toyota-86.jpg"
+  },
+  {
+    "id": 4,
+    "make": "Nissan",
+    "model": "350Z",
+    "year": 2009,
+    "color": "#0000a0",
+    "nos": true,
+    "image": "2009-nissan-350z.jpg"
+  },
+  {
+    "id": 5,
+    "make": "Honda",
+    "model": "NSX",
+    "year": 2005,
+    "color": "#808080",
+    "nos": true,
+    "image": "2005-honda-nsx.jpg"
+  },
+  {
+    "id": 6,
+    "make": "Audi",
+    "model": "Q2",
+    "year": 2017,
+    "color": "#ffff00",
+    "nos": false,
+    "image": "2017-audi-q2.jpg"
+  },
+  {
+    "id": 7,
+    "make": "Maserati",
+    "model": "Ghibli",
+    "year": 2016,
+    "color": "#000",
+    "nos": false,
+    "image": "2016-maserati-ghibli.jpg"
+  }
+]

@@ -1,0 +1,28 @@
+img{
+  width:100%;
+}
+.car-form{
+  background-color: whitesmoke;
+  font-family: 'Ubuntu';
+  font-weight: bold;
+}
+.control-label{
+  font-weight: bold;
+  margin-bottom: 0;
+  padding: 5px;
+  color: #444;
+}
+input, select{
+  border-radius: 12px;
+  background-color: #444;
+  border: 0;
+  color: white;
+}
+.back-btn{
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  font-family: 'Ubuntu';
+}
+.back-btn:hover{
+  margin-top: 0;
+}
