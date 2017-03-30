@@ -11,7 +11,7 @@ import { CarService } from './car.service';
 })
 export class CarComponent implements OnInit {
   private car: Car;
-  private startYear: number = 1950;
+  private startYear = 1950;
   private currentYear: number = new Date().getFullYear() + 1;
   private carYears: number[] = [];
   private errorMessage: any;
@@ -30,7 +30,7 @@ export class CarComponent implements OnInit {
   ngOnInit(): void {
     this.route.params
       .subscribe((params: Params) => {
-        let id = +params['id'];
+        const id = +params['id'];
         this.getCar(id);
       });
   }
