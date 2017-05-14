@@ -10,7 +10,7 @@ import { Car } from './car';
 @Injectable()
 export class CarService {
 
-  private carsUrl = '../../api/cars.json';
+  private carsUrl = '/assets/api/cars.json';
 
   constructor(private http: Http) { }
 
