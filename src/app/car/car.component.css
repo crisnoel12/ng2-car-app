@@ -1,8 +1,4 @@
-img{
-  width:100%;
-}
 .car-form{
-  background-color: whitesmoke;
   font-family: 'Ubuntu';
   font-weight: bold;
 }
@@ -17,12 +13,4 @@ input, select{
   background-color: #444;
   border: 0;
   color: white;
-}
-.back-btn{
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  font-family: 'Ubuntu';
-}
-.back-btn:hover{
-  margin-top: 0;
 }
