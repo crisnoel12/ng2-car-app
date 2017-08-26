@@ -4,11 +4,7 @@
   </div>
   <div class="panel-body">
     <div class="row">
-      <div class="col-sm-8">
-        <img src="../../assets/images/{{car.image}}" alt="">
-        <a class="btn btn-primary back-btn" (click)='goBack()'>Go Back</a>
-      </div>
-      <div class="col-sm-4 car-form">
+      <div class="col-xs-8 col-xs-offset-2 car-form">
         <div class="form-group">
           <label for="carMake" class="control-label">Make</label>
           <div>
@@ -44,7 +40,10 @@
             </select>
           </div>
         </div>
-
+        <div class="btn-group" role="group" aria-label="...">
+          <button type="button" class="btn btn-primary">Update</button>
+          <button type="button" class="btn btn-default" (click)='goBack()'>Back to Cars</button>
+        </div>
       </div>
     </div>
   </div>
