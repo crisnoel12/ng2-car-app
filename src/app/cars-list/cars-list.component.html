@@ -20,7 +20,7 @@
       <td>{{car.year}}</td>
       <td><span class="color" [style.background-color]="car.color"></span></td>
       <td>{{ car.nos ? '&#10004;' : '-' }}</td>
-      <td><a (click)="carData = this.car" class="btn btn-info">Input ( )</a> <a href="#" class="btn btn-primary" routerLink="/car/{{car.id}}">Edit</a></td>
+      <td><a (click)="carData = this.car" class="btn btn-info">Input ( )</a> <a href="#" class="btn btn-primary" routerLink="/car/{{car.id}}">Edit</a> <a class="btn btn-danger">X</a></td>
     </tr>
   </tbody>
 </table>
