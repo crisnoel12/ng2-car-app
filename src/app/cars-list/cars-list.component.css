@@ -7,3 +7,7 @@
     margin-top: 6px;
     margin-left: 12px;
 }
+
+table th {
+  border: 0;
+}
