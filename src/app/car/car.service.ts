@@ -28,6 +28,13 @@ export class CarService {
       .catch(this.handleError);
   }
 
+  deleteCar(id: number): Observable<void> {
+    const url = `${this.carsUrl}/${id}`;
+    return this.http.delete(url)
+      .map((response: Response) => response.json())
+      .catch(this.handleError);
+  }
+
   private handleError(error: Response) {
     console.error(error);
     return Observable.throw(error.json().error || 'Server error');
