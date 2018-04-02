@@ -22,6 +22,10 @@ export class CarsListComponent implements OnInit {
         error => this.errorMessage = <any>error);
   }
 
+  removeCar(car: Car): void {
+    this.carService.deleteCar(car.id);
+  }
+
   toggleNos(): void {
     this.showNos = !this.showNos;
   }
